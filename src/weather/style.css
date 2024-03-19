@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 :root {
@@ -14,7 +15,7 @@
   --color-dark: #2f2f2f;
   --color-light: #fff;
   --color-brand: #57bd84;
-  --font-fam: "Lato", sans-serif;
+  --font-family: "Lato", sans-serif;
   --height: 5rem;
   --btn-width: 6rem;
   --bez: cubic-bezier(0, 0, 0.43, 1.49);
@@ -63,7 +64,7 @@ body {
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
   width: 100%;
-  font-size: 65px;
+  font-size: 50px;
   display: flex;
   justify-content: space-around;
   margin-right: 20px;
@@ -92,7 +93,7 @@ body {
   justify-content: space-around;
   align-items: center;
   color: white;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 800;
   text-align: center;
 }
